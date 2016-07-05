@@ -1,0 +1,38 @@
+{
+  "name": "tableland",
+  "version": "0.1.0",
+  "description": "tableland",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/importre/tableland.git"
+  },
+  "keywords": [
+    "adoc",
+    "asciidoc",
+    "table"
+  ],
+  "author": {
+    "name": "importre",
+    "email": "jaeweheo@gmail.com",
+    "url": "https://github.com/importre"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/importre/tableland/issues"
+  },
+  "homepage": "https://github.com/importre/tableland#readme",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2
+  }
+}
