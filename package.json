@@ -1,7 +1,7 @@
 {
-  "name": "tableland",
+  "name": "tinyblocks",
   "version": "0.1.0",
-  "description": "tableland",
+  "description": "tinyblocks",
   "scripts": {
     "test": "xo && ava"
   },
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/importre/tableland.git"
+    "url": "git+https://github.com/importre/tinyblocks.git"
   },
   "keywords": [
     "adoc",
@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/importre/tableland/issues"
+    "url": "https://github.com/importre/tinyblocks/issues"
   },
-  "homepage": "https://github.com/importre/tableland#readme",
+  "homepage": "https://github.com/importre/tinyblocks#readme",
   "devDependencies": {
     "ava": "^0.15.2",
     "xo": "^0.16.0"
