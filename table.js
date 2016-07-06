@@ -6,6 +6,10 @@ const {
   range
 } = require('lodash');
 
+const RE_TABLE = /(?:\[(.+)\])?\s+(\|===)\n((?:.*\n)*?)\2/mg;
+const RE_METADATA = /(.+?)="(.+?)"(?:\s*,\s*|\s*$)/g;
+const RE_SEPARATOR = /[ \t]*(?:([<^>]))?\|[ \t]+/;
+
 function parseMetadata(input) {
   const result = {
     cols: [1],
@@ -28,9 +32,8 @@ function parseMetadata(input) {
 }
 
 function parse(input) {
-  const RE_TABLE = /(?:\[(.+)\])?\s+(\|===)\n((?:.*\n)*?)\2/mg;
-  const RE_METADATA = /(.+?)="(.+?)"(?:\s*,\s*|\s*$)/g;
-  const RE_SEPARATOR = /[ \t]*(?:([<^>]))?\|[ \t]+/;
+  RE_TABLE.lastIndex = 0;
+  RE_METADATA.lastIndex = 0;
 
   const match = RE_TABLE.exec(input);
   if (!match) {
