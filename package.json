@@ -5,7 +5,7 @@
   "scripts": {
     "test": "xo && ava"
   },
-  "tinyblocks": "tinyblocks.js",
+  "main": "tinyblocks.js",
   "files": [
     "tinyblocks.js",
     "table.js"
