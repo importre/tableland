@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  table: require('./table.js')
+  table: require('./lib/table.js')
 };
 

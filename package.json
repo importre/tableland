@@ -2,13 +2,16 @@
   "name": "tinyblocks",
   "version": "0.0.5",
   "description": "tinyblocks",
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "xo && ava"
   },
-  "main": "tinyblocks.js",
+  "index": "index.js",
   "files": [
-    "tinyblocks.js",
-    "table.js"
+    "index.js",
+    "lib"
   ],
   "repository": {
     "type": "git",
@@ -41,3 +44,4 @@
     "lodash": "^4.13.1"
   }
 }
+
