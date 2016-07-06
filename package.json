@@ -5,8 +5,10 @@
   "scripts": {
     "test": "xo && ava"
   },
+  "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "table.js"
   ],
   "repository": {
     "type": "git",
