@@ -1,8 +1,11 @@
-import test from 'ava';
-import fn from './';
+'use strict';
 
-test('parse simple input', t => {
+import test from 'ava';
+import {table} from './';
+
+test('parse simple table', t => {
   const input = `|===\n| english\n| 한글\n|===`;
-  const output = fn(input);
+  const output = table(input);
   t.true(input === output);
 });
+
