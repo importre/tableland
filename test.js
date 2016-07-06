@@ -4,7 +4,7 @@ import test from 'ava';
 import {
   table
 }
-from './';
+from './tinyblocks.js';
 
 test('parse simple table', t => {
   const input = `

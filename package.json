@@ -5,9 +5,9 @@
   "scripts": {
     "test": "xo && ava"
   },
-  "main": "index.js",
+  "tinyblocks": "tinyblocks.js",
   "files": [
-    "index.js",
+    "tinyblocks.js",
     "table.js"
   ],
   "repository": {
