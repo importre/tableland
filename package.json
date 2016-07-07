@@ -1,6 +1,6 @@
 {
   "name": "tinyblocks",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "tinyblocks",
   "engines": {
     "node": ">=4"
@@ -44,4 +44,3 @@
     "lodash": "^4.13.1"
   }
 }
-
